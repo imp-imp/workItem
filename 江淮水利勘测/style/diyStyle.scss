@@ -1,0 +1,504 @@
+.fu-form {
+  display: block;
+  overflow-x: hidden;
+
+  .warning {
+    font-size: 22rpx;
+    color: red;
+  }
+
+  // 复选框 - 单选框
+  .fu-checkbox {
+    .titleOne {
+      flex-wrap: wrap;
+      .form-title {
+        width: 100% !important;
+        margin-bottom: 10rpx;
+      }
+    }
+    // 模式样式
+    .model_3 {
+      flex-wrap: wrap;
+      .form-title {
+        display: inline-block;
+        width: 100% !important;
+        margin-bottom: 10rpx;
+      }
+      .radioItem {
+        width: 100%;
+        flex-direction: row-reverse;
+        padding: 10rpx 0;
+        margin-right: 0;
+      }
+    }
+    .title_img {
+      width: 56rpx;
+      height: 56rpx;
+      position: relative;
+      margin-right: 24rpx;
+
+      image {
+        width: 56rpx;
+        height: 56rpx;
+        border-radius: 100rpx;
+      }
+    }
+    .radioBtns {
+      position: relative;
+      .btn_radio {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+      }
+    }
+    .cu-btn[class*="line"]::after {
+      border-radius: inherit;
+    }
+  }
+  .any-fu-select ::v-deep {
+    uni-switch.green[checked] .wx-switch-input,
+    uni-checkbox.green[checked] .wx-checkbox-input,
+    uni-checkbox[checked] .wx-checkbox-input,
+    uni-radio.green[checked] .wx-radio-input,
+    uni-switch.green.checked .uni-switch-input,
+    uni-switch.checked .uni-switch-input,
+    uni-checkbox.green.checked .uni-checkbox-input,
+    uni-checkbox.checked .uni-checkbox-input,
+    uni-radio.green.checked .uni-radio-input,
+    uni-radio.checked .uni-radio-input {
+      background-color: inherit !important;
+      color: inherit !important;
+      border-color: inherit !important;
+      border-radius: 3px;
+    }
+    uni-checkbox .uni-checkbox-input {
+      border-radius: 0;
+    }
+    uni-checkbox:not([disabled]) .uni-checkbox-input:hover {
+      border-color: #d1d1d1 !important;
+    }
+  }
+
+  // 按钮
+  .fu-form-button {
+    display: inline-block;
+    font-size: 0;
+
+    &.fixed {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      display: block;
+    }
+
+    button {
+      font-size: 14px;
+    }
+  }
+
+  // 输入框
+  .fu-form-input {
+    .form-title {
+      margin-right: 10px;
+    }
+
+    input {
+      padding: 10rpx 20rpx 10rpx 0;
+    }
+
+    .model_1 {
+      align-items: center;
+    }
+
+    .model_2 {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .text-box {
+        width: 100%;
+        margin-top: 5px;
+      }
+    }
+
+    .model_3 {
+      border-radius: 100px;
+      background-color: #FFFFFF;
+      border: 1px solid #CCCCCC;
+
+      &::after {
+        content: none;
+      }
+    }
+
+  }
+
+  // 分割线
+  .fu-line {
+    width: 100%;
+    border-bottom: 1rpx solid #ebeef5;
+    margin: 10px 0;
+  }
+
+  // 文字
+  .bulletin-text {
+    display: inline-block;
+  }
+
+  // 多行文本输入框
+  .myTextarea {
+    position: relative;
+
+    .textarea-count {
+      position: absolute;
+      right: 20rpx;
+      bottom: 20rpx;
+      color: #999;
+      font-size: 28rpx;
+    }
+  }
+
+  // 上传
+  .add-img {
+    width: 160rpx;
+    height: 160rpx;
+  }
+
+  // 图标
+  .fu-iconfont {
+    display: inline;
+    line-height: 1.5;
+  }
+
+  // 选择框
+  .fu-picker {
+    &::before {
+      z-index: -1;
+    }
+  }
+
+  .dir-img {
+    padding-left: 68rpx;
+
+    .opeion-img {
+      max-width: 100%;
+    }
+  }
+
+  // 答题多项填空
+  .fu-qs-gapFilling {
+    .gapFiling-input-box {
+      display: inline-block;
+      position: relative;
+      min-width: 100rpx;
+      min-height: 1em;
+      font-size: 28rpx;
+      border: 1rpx solid #dcdfe6;
+    }
+
+    .gapFiling-input {
+      border: 1rpx solid red;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+      // display: none;
+      opacity: 0;
+    }
+  }
+
+  // 答题-输入框
+  .qs-textarea {
+    border: 1px solid #dcdfe6;
+    border-radius: 8rpx;
+  }
+
+}
+
+//form end
+.fu-free-components {
+  position: relative;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.fu-free-element {
+  position: absolute;
+}
+
+.fu-free-linex-diy {
+  transform-origin: 0 0;
+  transform: scaleY(0.5);
+}
+
+.fu-free-liney-diy {
+  transform-origin: 0 0;
+  transform: scaleX(0.5);
+}
+
+.fu-free-container-diy {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.fu-block-54 {
+  width: 54rpx;
+  height: 54rpx;
+}
+
+button {
+  padding: 0;
+}
+
+button:after {
+  content: none;
+}
+
+.text-cut-num {
+  display: -webkit-box;
+  /**对象作为伸缩盒子模型展示**/
+  -webkit-box-orient: vertical;
+  /**设置或检索伸缩盒子对象的子元素的排列方式**/
+  overflow: hidden;
+  /**隐藏超出的内容**/
+}
+
+.fu-score-star {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fu-progress-bar {
+  overflow: hidden;
+
+  .fu-progress-bar-border {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 200%;
+    transform-origin: 0 0;
+    transform: scale(0.5);
+    z-index: 10;
+  }
+
+  .fu-progress-bar-center {
+    position: absolute;
+    left: 0;
+    height: 100%;
+  }
+}
+
+.goods-swiper-item {
+  image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.goods-swiper-box {
+  position: relative;
+
+  .indicator-position-right {
+    position: absolute;
+    right: 10rpx;
+    bottom: 20rpx;
+  }
+
+  .indicator-position-left {
+    position: absolute;
+    left: 10rpx;
+    bottom: 20rpx;
+  }
+
+  .indicator-position-center {
+    position: absolute;
+    left: 50%;
+    bottom: 20rpx;
+    transform: translateX(-50%);
+  }
+
+  .goods-swiper-indicator-spot {
+    display: flex;
+
+    view {
+      background-color: #929292;
+      margin: 0 5rpx;
+      width: 10rpx;
+      height: 10rpx;
+    }
+
+    .goods-swiper-indicator-spot-active {
+      background-color: #ff5536;
+    }
+  }
+
+  .goods-swiper-indicator-num {
+    padding: 5rpx 20rpx;
+  }
+}
+
+.benben-bg-size {
+  background-size: 100% auto !important;
+}
+
+.benben-box-size {
+  box-sizing: content-box;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.benben-progress-bar {
+  position: relative;
+}
+
+.benben-progress-bar-center {
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+
+.benben-progress-bar-image {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.benben-position-layout {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.benben-flex-layout {
+  display: flex;
+}
+
+.image_upload_tips {
+  width: 100%;
+}
+
+.benben-flex-tabs {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+  .benben-tabs {
+    height: 100%;
+    &-content {
+      height: 100%;
+      min-width: 100%;
+      display: inline-block;
+      position: relative;
+    }
+    &-title {
+      height: 100%;
+      position: relative;
+      z-index: 1;
+    }
+    &-line {
+      position: absolute;
+      transform: translateX(-50%);
+      z-index: 0;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.benben-table-content {
+  display: inline-block;
+}
+
+.benben-flex-table-y {
+  display: flex;
+  align-items: stretch;
+  border: 1px solid;
+  border-color: transparent;
+
+  .benben-flex-table-head {
+    position: sticky;
+    left: 0;
+  }
+
+  .benben-flex-table-row,
+  .benben-flex-table-head {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border-right: 1px solid;
+    border-color: inherit;
+
+    &:last-child {
+      border-right: none;
+    }
+
+    .benben-flex-table-cell {
+      display: flex;
+      border-bottom: 1px solid;
+      border-color: inherit;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.benben-flex-table-x {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  border: 1px solid;
+  border-color: transparent;
+
+  .benben-flex-table-head {
+    position: sticky;
+    top: 0;
+  }
+
+  .benben-flex-table-row,
+  .benben-flex-table-head {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    border-color: inherit;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .benben-flex-table-cell {
+      display: flex;
+      border-right: 1px solid;
+      border-color: inherit;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}

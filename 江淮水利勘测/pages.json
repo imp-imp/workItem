@@ -1,0 +1,672 @@
+{
+  "pages": [{
+    "path": "pages/tabBar/page/page",
+    "style": {
+      "navigationBarTitleText": "首页",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationStyle": "custom",
+      "navigationBarBackgroundColor": "#ffffff"
+    }
+  }, {
+    "path": "pages/tabBar/applicationCenter/applicationCenter",
+    "style": {
+      "navigationBarTitleText": "应用中心",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationStyle": "custom",
+      "navigationBarBackgroundColor": "#ffffff"
+    }
+  }, {
+    "path": "pages/tabBar/login/login",
+    "style": {
+      "navigationBarTitleText": "登录",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationStyle": "custom",
+      "navigationBarBackgroundColor": "#ffffff"
+    }
+  }, {
+    "path": "pages/tabBar/my/my",
+    "style": {
+      "navigationBarTitleText": "我的",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationStyle": "custom",
+      "navigationBarBackgroundColor": "#ffffff"
+    }
+  }, {
+    "path": "pages/tabBar/projectAll/projectAll",
+    "style": {
+      "navigationBarTitleText": "项目-全部",
+      "enablePullDownRefresh": false,
+      "navigationBarTextStyle": "black",
+      "navigationStyle": "custom",
+      "navigationBarBackgroundColor": "#ffffff"
+    }
+  }],
+  "subPackages": [{
+    "root": "pages/benben-built-in",
+    "pages": [{
+      "path": "playVideo/playVideo",
+      "style": {
+        "navigationBarTitleText": "视频播放页面",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "image-cropping/image-cropping",
+      "style": {
+        "navigationBarTitleText": "图片裁剪",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }]
+  }, {
+    "root": "pages/applicationCenter",
+    "pages": [{
+      "path": "InvoicingSubmitted/InvoicingSubmitted",
+      "style": {
+        "navigationBarTitleText": "开票-待提交",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "Journal/Journal",
+      "style": {
+        "navigationBarTitleText": "日志中心",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "account/account",
+      "style": {
+        "navigationBarTitleText": "报销单",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "advance/advance",
+      "style": {
+        "navigationBarTitleText": "新增借支",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "agreeApproval/agreeApproval",
+      "style": {
+        "navigationBarTitleText": "同意审批",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "associatedDebit/associatedDebit",
+      "style": {
+        "navigationBarTitleText": "选择关联借支",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "borroWmoney/borroWmoney",
+      "style": {
+        "navigationBarTitleText": "待发起详情-借支",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "cashAdvance/cashAdvance",
+      "style": {
+        "navigationBarTitleText": "借支",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "collection/collection",
+      "style": {
+        "navigationBarTitleText": "新增回款",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "costDetails/costDetails",
+      "style": {
+        "navigationBarTitleText": "成本详情",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "degression/degression",
+      "style": {
+        "navigationBarTitleText": "成本",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "detailsApproved/detailsApproved",
+      "style": {
+        "navigationBarTitleText": "待审批详情",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "detailsReimbursement/detailsReimbursement",
+      "style": {
+        "navigationBarTitleText": "待审批详情-报销",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "dismissApproval/dismissApproval",
+      "style": {
+        "navigationBarTitleText": "驳回审批",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "examinationList/examinationList",
+      "style": {
+        "navigationBarTitleText": "审批列表",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "expenseAccount/expenseAccount",
+      "style": {
+        "navigationBarTitleText": "报销",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "inform/inform",
+      "style": {
+        "navigationBarTitleText": "公告通知",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "invoice/invoice",
+      "style": {
+        "navigationBarTitleText": "新增开票",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "management/management",
+      "style": {
+        "navigationBarTitleText": "回款管理",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "notice/notice",
+      "style": {
+        "navigationBarTitleText": "公告通知详情",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "receivableReview/receivableReview",
+      "style": {
+        "navigationBarTitleText": "回款审核",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "reimbursement/reimbursement",
+      "style": {
+        "navigationBarTitleText": "新增报销",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "review/review",
+      "style": {
+        "navigationBarTitleText": "回款审核",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "single/single",
+      "style": {
+        "navigationBarTitleText": "借支单",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "submittedBilling/submittedBilling",
+      "style": {
+        "navigationBarTitleText": "待提交详情-开票",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "todo/todo",
+      "style": {
+        "navigationBarTitleText": "待办事项",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "writeLog/writeLog",
+      "style": {
+        "navigationBarTitleText": "写日志",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }]
+  }, {
+    "root": "pages/home",
+    "pages": [{
+      "path": "application/application",
+      "style": {
+        "navigationBarTitleText": "提交申请",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "approvals/approvals",
+      "style": {
+        "navigationBarTitleText": "审批进度",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "detailsPage/detailsPage",
+      "style": {
+        "navigationBarTitleText": "合同详情页",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "extension/extension",
+      "style": {
+        "navigationBarTitleText": "申请延期",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "messageDetails/messageDetails",
+      "style": {
+        "navigationBarTitleText": "消息详情",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "messageList/messageList",
+      "style": {
+        "navigationBarTitleText": "消息列表",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "progress/progress",
+      "style": {
+        "navigationBarTitleText": "进行中详情",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "write/write",
+      "style": {
+        "navigationBarTitleText": "写日志",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }]
+  }, {
+    "root": "pages/mine",
+    "pages": [{
+      "path": "area/area",
+      "style": {
+        "navigationBarTitleText": "南阳区域",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "business/business",
+      "style": {
+        "navigationBarTitleText": "济源经营部",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "businessDepartment/businessDepartment",
+      "style": {
+        "navigationBarTitleText": "郑州经营部",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "department/department",
+      "style": {
+        "navigationBarTitleText": "南阳经营部",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "design/design",
+      "style": {
+        "navigationBarTitleText": "设计一室",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "employees/employees",
+      "style": {
+        "navigationBarTitleText": "我的员工",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "jiyuanArea/jiyuanArea",
+      "style": {
+        "navigationBarTitleText": "济源区域",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "personal/personal",
+      "style": {
+        "navigationBarTitleText": "个人资料",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "structure/structure",
+      "style": {
+        "navigationBarTitleText": "组织架构",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "zhengzhouArea/zhengzhouArea",
+      "style": {
+        "navigationBarTitleText": "郑州区域",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }]
+  }, {
+    "root": "pages/xtsz",
+    "pages": [{
+      "path": "CancelAccount/CancelAccount",
+      "style": {
+        "navigationBarTitleText": "注销账号",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "aboutUs/aboutUs",
+      "style": {
+        "navigationBarTitleText": "关于我们",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "agreement/agreement",
+      "style": {
+        "navigationBarTitleText": "用户注册协议",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "cardAndSafe/cardAndSafe",
+      "style": {
+        "navigationBarTitleText": "账号与安全",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "changeBingDingPhone/changeBingDingPhone",
+      "style": {
+        "navigationBarTitleText": "修改绑定手机号",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "changePwd/changePwd",
+      "style": {
+        "navigationBarTitleText": "修改密码",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "changePwdOldCode/changePwdOldCode",
+      "style": {
+        "navigationBarTitleText": "改密-旧密码验证",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "changePwdPhone/changePwdPhone",
+      "style": {
+        "navigationBarTitleText": "修改密码-手机验证",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "changePwdPhoneCode/changePwdPhoneCode",
+      "style": {
+        "navigationBarTitleText": "改密-手机验证",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "feedBack/feedBack",
+      "style": {
+        "navigationBarTitleText": "意见反馈",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "feedBackDetail/feedBackDetail",
+      "style": {
+        "navigationBarTitleText": "反馈记录",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "inputNewPhone/inputNewPhone",
+      "style": {
+        "navigationBarTitleText": "输入新的手机号",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "logOutReason/logOutReason",
+      "style": {
+        "navigationBarTitleText": "注销账号原因",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "logOutRisk/logOutRisk",
+      "style": {
+        "navigationBarTitleText": "注销账号风险",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "logOutSubmit/logOutSubmit",
+      "style": {
+        "navigationBarTitleText": "注销账号提交",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }, {
+      "path": "system/system",
+      "style": {
+        "navigationBarTitleText": "系统设置",
+        "enablePullDownRefresh": false,
+        "navigationBarTextStyle": "black",
+        "navigationStyle": "custom",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    }]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF",
+    "app_plus": {
+      "app-plus": {
+        "bounce": "none"
+      }
+    }
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#B0B1B7",
+    "selectedColor": "#0B1898",
+    "list": [{
+      "visible": true,
+      "pagePath": "pages/tabBar/page/page",
+      "iconPath": "/static/tab/tab0.png",
+      "selectedIconPath": "/static/tab/tab0_active.png",
+      "text": "首页"
+    }, {
+      "visible": true,
+      "pagePath": "pages/tabBar/projectAll/projectAll",
+      "iconPath": "/static/tab/tab1.png",
+      "selectedIconPath": "/static/tab/tab1_active.png",
+      "text": "项目"
+    }, {
+      "visible": true,
+      "pagePath": "pages/tabBar/applicationCenter/applicationCenter",
+      "iconPath": "/static/tab/tab2.png",
+      "selectedIconPath": "/static/tab/tab2_active.png",
+      "text": "应用中心"
+    }, {
+      "visible": true,
+      "pagePath": "pages/tabBar/my/my",
+      "iconPath": "/static/tab/tab3.png",
+      "selectedIconPath": "/static/tab/tab3_active.png",
+      "text": "我的"
+    }]
+  }
+}
